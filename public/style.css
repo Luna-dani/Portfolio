@@ -6897,6 +6897,24 @@ section {
     background: var(--keyfield-primary) !important;
 }
 
+/* KeyField Hover Shadow Fixes */
+.keyfield-case-study .problem-card:hover,
+.keyfield-case-study .feature-item:hover,
+.keyfield-case-study .competitor-card:hover,
+.keyfield-case-study .card-sort-card:hover,
+.keyfield-case-study .step-content:hover,
+.keyfield-case-study .testing-overview-card:hover,
+.keyfield-case-study .testing-insights-card:hover,
+.keyfield-case-study .style-guide-card:hover,
+.keyfield-case-study .moodboard-card:hover,
+.keyfield-case-study .refine-card:hover {
+    box-shadow: 0 8px 25px rgba(136, 115, 98, 0.3) !important;
+}
+
+.keyfield-case-study .timeline-step:hover {
+    box-shadow: 0 10px 25px rgba(136, 115, 98, 0.15) !important;
+}
+
 /* KeyField Section Titles */
 .keyfield-case-study .section-title {
     color: var(--keyfield-primary) !important;
