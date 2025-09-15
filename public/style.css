@@ -7201,6 +7201,12 @@ section {
     color: var(--keyfield-white) !important;
 }
 
+/* KeyField Project Overview Description */
+.keyfield-case-study .overview-intro p {
+    color: #000000 !important;
+    text-align: center !important;
+}
+
 /* Specific override for Overview section title */
 .keyfield-case-study .case-study-section h2.section-title {
     color: #887362 !important;
