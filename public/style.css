@@ -6915,6 +6915,37 @@ section {
     box-shadow: 0 10px 25px rgba(136, 115, 98, 0.15) !important;
 }
 
+/* KeyField Key Features Grid Layout */
+.keyfield-case-study .app-features {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+
+.keyfield-case-study .feature-item {
+    width: 100% !important;
+    min-height: 80px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 1rem !important;
+}
+
+.keyfield-case-study .feature-item p {
+    margin: 0 !important;
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+@media (max-width: 768px) {
+    .keyfield-case-study .app-features {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+}
+
 /* KeyField Section Titles */
 .keyfield-case-study .section-title {
     color: var(--keyfield-primary) !important;
