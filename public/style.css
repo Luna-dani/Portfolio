@@ -7233,6 +7233,172 @@ section {
     color: var(--keyfield-text-dark) !important;
 }
 
+/* KeyField Comprehensive Color and Accessibility Fixes */
+.keyfield-case-study * {
+    /* Override any inherited pink/blue colors */
+    background-color: inherit !important;
+    border-color: inherit !important;
+}
+
+/* Fix all backgrounds to use only our color scheme */
+.keyfield-case-study .case-study-section,
+.keyfield-case-study .overview-section,
+.keyfield-case-study .problem-section,
+.keyfield-case-study .solution-section,
+.keyfield-case-study .research-section,
+.keyfield-case-study .define-section,
+.keyfield-case-study .ideate-section,
+.keyfield-case-study .prototype-section,
+.keyfield-case-study .testing-section,
+.keyfield-case-study .final-designs-section,
+.keyfield-case-study .reflection-section {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+/* Fix all card backgrounds */
+.keyfield-case-study .problem-card,
+.keyfield-case-study .feature-item,
+.keyfield-case-study .competitor-card,
+.keyfield-case-study .card-sort-card,
+.keyfield-case-study .step-content,
+.keyfield-case-study .testing-overview-card,
+.keyfield-case-study .testing-insights-card,
+.keyfield-case-study .style-guide-card,
+.keyfield-case-study .moodboard-card,
+.keyfield-case-study .refine-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+/* Fix all header backgrounds */
+.keyfield-case-study .overview-header,
+.keyfield-case-study .research-header,
+.keyfield-case-study .competitor-header,
+.keyfield-case-study .ideate-header,
+.keyfield-case-study .insights-header,
+.keyfield-case-study .reflection-header,
+.keyfield-case-study .style-header {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+/* Fix accessibility - ensure proper contrast */
+.keyfield-case-study .case-study-header {
+    background: linear-gradient(135deg, var(--keyfield-primary) 0%, var(--keyfield-primary-dark) 100%) !important;
+}
+
+.keyfield-case-study .case-study-title {
+    color: var(--keyfield-white) !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+.keyfield-case-study .case-study-subtitle {
+    color: var(--keyfield-accent) !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+/* Fix any remaining pink/blue elements */
+.keyfield-case-study .btn-primary {
+    background: var(--keyfield-primary) !important;
+    border-color: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .btn-outline {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    color: var(--keyfield-primary) !important;
+}
+
+/* Fix any gradient backgrounds */
+.keyfield-case-study .hero-background,
+.keyfield-case-study .hero-bg-overlay {
+    background: linear-gradient(135deg, var(--keyfield-primary) 0%, var(--keyfield-primary-dark) 100%) !important;
+}
+
+/* Ensure all text has proper contrast */
+.keyfield-case-study .text-light,
+.keyfield-case-study .text-muted {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .text-dark {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* Fix any remaining colored elements */
+.keyfield-case-study .accent,
+.keyfield-case-study .highlight,
+.keyfield-case-study .emphasis {
+    background: var(--keyfield-accent) !important;
+    color: var(--keyfield-text-dark) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+/* Additional accessibility fixes */
+.keyfield-case-study .timeline-line {
+    background: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .step-dot {
+    background: var(--keyfield-primary) !important;
+    border: 2px solid var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .design-timeline::before {
+    background: linear-gradient(90deg, var(--keyfield-accent) 0%, var(--keyfield-primary) 100%) !important;
+}
+
+.keyfield-case-study .timeline-step {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-accent) !important;
+}
+
+.keyfield-case-study .step-circle {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .step-label {
+    color: var(--keyfield-primary) !important;
+}
+
+/* Fix any remaining background issues */
+.keyfield-case-study .landscape-image-placeholder,
+.keyfield-case-study .image-placeholder {
+    background: var(--keyfield-accent) !important;
+    border: 2px dashed var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .placeholder-content {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* Ensure navigation has proper contrast */
+.keyfield-case-study .navbar {
+    background: var(--keyfield-white) !important;
+    border-bottom: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .nav-brand a {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .nav-link {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .nav-link:hover,
+.keyfield-case-study .nav-link.active {
+    color: var(--keyfield-primary) !important;
+    border-bottom: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .hamburger .bar {
+    background: var(--keyfield-primary) !important;
+}
+
 .competitor-logo {
     text-align: center;
     margin-bottom: 2rem;
