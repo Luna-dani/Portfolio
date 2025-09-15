@@ -7166,6 +7166,73 @@ section {
     color: var(--keyfield-primary) !important;
 }
 
+/* KeyField Highlight Overrides */
+.keyfield-case-study .insight-item.highlight {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .insight-item.highlight p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .learning-highlight {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .learning-highlight h4 {
+    color: var(--keyfield-primary) !important;
+}
+
+/* KeyField Text Color Overrides */
+.keyfield-case-study p,
+.keyfield-case-study .text-muted,
+.keyfield-case-study .text-light {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study h1,
+.keyfield-case-study h2,
+.keyfield-case-study h3,
+.keyfield-case-study h4,
+.keyfield-case-study h5,
+.keyfield-case-study h6 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .section-title {
+    color: var(--keyfield-primary) !important;
+}
+
+/* KeyField Additional Color Overrides */
+.keyfield-case-study .case-study-meta span,
+.keyfield-case-study .case-study-category,
+.keyfield-case-study .case-study-duration,
+.keyfield-case-study .case-study-role {
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .overview-text p,
+.keyfield-case-study .problem-text p,
+.keyfield-case-study .solution-text p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .competitor-name,
+.keyfield-case-study .competitor-description {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .user-story-text {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .reflection-text p {
+    color: var(--keyfield-text-dark) !important;
+}
+
 .competitor-logo {
     text-align: center;
     margin-bottom: 2rem;
