@@ -12,7 +12,7 @@ A fully coded, bold but minimal multi-page UX/UI portfolio website built with HT
 - **Typography**: Clean Inter font family for excellent readability
 
 ### Pages
-- **Landing Page** (`Index.html`): Hero section, about me, skills, featured work
+- **Landing Page** (`index.html`): Hero section, about me, skills, featured work
 - **Portfolio Page** (`portfolio.html`): Grid layout with filtering by category
 - **Case Study Pages** (`case-study-1.html`): Detailed project breakdowns
 - **Resume Page** (`resume.html`): Professional experience, skills, and education
@@ -40,7 +40,7 @@ A fully coded, bold but minimal multi-page UX/UI portfolio website built with HT
 
 ```
 portfolio/
-├── Index.html              # Landing page
+├── index.html              # Landing page
 ├── portfolio.html          # Portfolio grid page
 ├── case-study-1.html      # Sample case study
 ├── resume.html            # Resume page
@@ -86,7 +86,7 @@ The website uses a consistent color palette defined in CSS variables. To customi
 ## 🚀 Getting Started
 
 1. **Download/Clone** the project files
-2. **Open** `Index.html` in your web browser
+2. **Open** `index.html` in your web browser
 3. **Customize** content and styling as needed
 4. **Deploy** to your web hosting service
 
@@ -168,7 +168,7 @@ The website uses a consistent color palette defined in CSS variables. To customi
 
 ### Web Hosting
 - Upload all files to your web server
-- Ensure `Index.html` is set as the default page
+- Ensure `index.html` is set as the default page
 - Test all functionality after deployment
 
 ### GitHub Pages
