@@ -7215,7 +7215,7 @@ section {
 
 /* KeyField Key Features */
 .keyfield-case-study .app-overview h3 {
-    color: var(--keyfield-white) !important;
+    color: var(--keyfield-primary) !important;
 }
 
 /* Specific override for Overview section title */
