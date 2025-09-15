@@ -6948,7 +6948,7 @@ section {
 
 /* KeyField Emphasize Section - Consistent Title Sizes and Colors */
 .keyfield-case-study .research-section h3 {
-    color: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
     font-size: 1.5rem !important;
     font-weight: 600 !important;
     margin-bottom: 1rem !important;
