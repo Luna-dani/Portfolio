@@ -6946,6 +6946,59 @@ section {
     }
 }
 
+/* KeyField Emphasize Section - Consistent Title Sizes and Colors */
+.keyfield-case-study .research-section h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+}
+
+.keyfield-case-study .research-section h4 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.75rem !important;
+}
+
+.keyfield-case-study .research-description {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.keyfield-case-study .focus-tag {
+    color: #000000 !important;
+    background-color: var(--keyfield-accent) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .question-item {
+    color: #000000 !important;
+    background-color: var(--keyfield-accent) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insight-item {
+    color: #000000 !important;
+    background-color: var(--keyfield-accent) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insight-item.highlight {
+    background-color: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insight-icon {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insight-item.highlight .insight-icon {
+    color: var(--keyfield-white) !important;
+}
+
 /* KeyField Section Titles */
 .keyfield-case-study .section-title {
     color: var(--keyfield-primary) !important;
