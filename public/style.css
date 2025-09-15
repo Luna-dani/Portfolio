@@ -7187,6 +7187,15 @@ section {
     background-color: transparent !important;
 }
 
+/* KeyField Overview Text Colors */
+.keyfield-case-study .section-title {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .overview-header h3 {
+    color: var(--keyfield-white) !important;
+}
+
 
 .competitor-logo {
     text-align: center;
