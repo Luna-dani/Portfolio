@@ -7323,51 +7323,78 @@ section {
     padding-right: 2rem !important;
 }
 
-/* KeyField Solution Card - Consistent Fonts and Colors */
+/* KeyField Solution Card - Match Problems Card Structure */
 .keyfield-case-study .solution-section {
     background: var(--keyfield-accent) !important;
     border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
 }
 
 .keyfield-case-study .solution-section .overview-header h3 {
-    color: var(--keyfield-white) !important;
+    color: var(--keyfield-primary) !important;
     font-size: 2rem !important;
     font-weight: 600 !important;
-    font-family: inherit !important;
+    font-family: 'Judson', serif !important;
+    margin-bottom: 1rem !important;
 }
 
 .keyfield-case-study .solution-statement h3 {
     color: var(--keyfield-primary) !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-weight: 600 !important;
-    font-family: inherit !important;
+    font-family: 'Judson', serif !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
 }
 
 .keyfield-case-study .solution-statement p {
-    color: #000000 !important;
+    color: var(--keyfield-primary) !important;
     font-size: 1rem !important;
     font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
 }
 
 .keyfield-case-study .app-overview h3 {
     color: var(--keyfield-primary) !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-weight: 600 !important;
-    font-family: inherit !important;
+    font-family: 'Judson', serif !important;
+    margin-bottom: 1rem !important;
 }
 
 .keyfield-case-study .app-overview p {
-    color: #000000 !important;
+    color: var(--keyfield-primary) !important;
     font-size: 1rem !important;
     font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .feature-item {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .feature-item:hover {
+    transform: translateY(-5px) !important;
+    border-color: var(--keyfield-primary) !important;
+    box-shadow: 0 10px 30px rgba(136, 115, 98, 0.2) !important;
 }
 
 .keyfield-case-study .feature-item p {
-    color: #000000 !important;
+    color: var(--keyfield-primary) !important;
     font-size: 1rem !important;
     font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
 }
 
 /* Specific override for Overview section title */
