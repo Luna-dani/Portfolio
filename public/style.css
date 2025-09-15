@@ -6963,7 +6963,7 @@ section {
 }
 
 .keyfield-case-study .research-description {
-    color: #000000 !important;
+    color: var(--keyfield-accent) !important;
     font-size: 1rem !important;
     margin-bottom: 1rem !important;
 }
