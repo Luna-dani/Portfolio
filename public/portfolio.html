@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Danielle Luna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Danielle Luna</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="page-title">My Portfolio</h1>
+                    <p class="page-subtitle">Every project reflects my journey as a UX designer rooted in empathy, driven by research, and shaped by real world impact</p>
+                </div>
+                <div class="photo-container">
+                    <img src="Images/IMG_0999 1.png" alt="Danielle Luna - UX/UI Designer Portfolio" class="portfolio-hero-image">
+                    <div class="photo-overlay">
+                        <div class="overlay-content">
+                            <h2>Danielle Luna</h2>
+                            <p>UX/UI Designer & Creative Problem Solver</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            
+            <div class="portfolio-items">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Olive Health & Wellness</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Olive Health & Wellness</h3>
+                                <p>Web Design • UX Research</p>
+                                <a href="olive-health-case-study.html" class="btn btn-outline">View Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Olive Health & Wellness</h3>
+                        <p>Comprehensive redesign focusing on user experience and accessibility for a health and wellness platform</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">User Research</span>
+                            <span class="tag">Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">StudyNest</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>StudyNest</h3>
+                                <p>Mobile App • UX Design</p>
+                                <a href="study-nest-case-study.html" class="btn btn-outline">View Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>StudyNest</h3>
+                        <p>Mobile application designed to help students organize their studies and improve productivity</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Mobile First</span>
+                            <span class="tag">User Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">KeyField</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>KeyField</h3>
+                                <p>Branding • Visual Design</p>
+                                <a href="keyfield-case-study.html" class="btn btn-outline">View Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>KeyField</h3>
+                        <p>Complete brand identity system and visual design for a technology company</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Brand Strategy</span>
+                            <span class="tag">Visual Design</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Let's Connect</h3>
+                    <p>Ready to bring your ideas to life? Let's discuss your next project.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>danielle@danielleluna.com</p>
+                    <p>Available for new projects</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Danielle Luna. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
