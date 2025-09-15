@@ -7213,6 +7213,11 @@ section {
     font-size: 1.5rem !important;
 }
 
+.keyfield-case-study .solution-statement p {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
 /* KeyField Key Features */
 .keyfield-case-study .app-overview h3 {
     color: var(--keyfield-primary) !important;
