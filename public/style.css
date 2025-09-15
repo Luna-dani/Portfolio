@@ -7190,10 +7190,25 @@ section {
 /* KeyField Overview Text Colors */
 .keyfield-case-study .section-title {
     color: var(--keyfield-primary) !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    background-clip: unset !important;
 }
 
 .keyfield-case-study .overview-header h3 {
     color: var(--keyfield-white) !important;
+}
+
+/* Specific override for Overview section title */
+.keyfield-case-study .case-study-section h2.section-title {
+    color: #887362 !important;
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    background-clip: unset !important;
 }
 
 
