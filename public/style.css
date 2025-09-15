@@ -7342,7 +7342,7 @@ section {
 
 .keyfield-case-study .solution-statement h3 {
     color: var(--keyfield-primary) !important;
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
     line-height: 1.6 !important;
@@ -7351,7 +7351,7 @@ section {
 
 .keyfield-case-study .solution-statement p {
     color: var(--keyfield-primary) !important;
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     font-family: inherit !important;
     line-height: 1.6 !important;
     margin: 0 !important;
@@ -7361,7 +7361,7 @@ section {
 
 .keyfield-case-study .app-overview h3 {
     color: var(--keyfield-primary) !important;
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
     margin-bottom: 1rem !important;
