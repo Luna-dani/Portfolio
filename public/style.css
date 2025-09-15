@@ -7213,6 +7213,11 @@ section {
     font-size: 1.5rem !important;
 }
 
+/* KeyField Key Features */
+.keyfield-case-study .app-overview h3 {
+    color: var(--keyfield-white) !important;
+}
+
 /* Specific override for Overview section title */
 .keyfield-case-study .case-study-section h2.section-title {
     color: #887362 !important;
