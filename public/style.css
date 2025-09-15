@@ -7323,10 +7323,51 @@ section {
     padding-right: 2rem !important;
 }
 
-/* KeyField Key Features */
+/* KeyField Solution Card - Consistent Fonts and Colors */
+.keyfield-case-study .solution-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .solution-section .overview-header h3 {
+    color: var(--keyfield-white) !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+.keyfield-case-study .solution-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+.keyfield-case-study .solution-statement p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
 .keyfield-case-study .app-overview h3 {
     color: var(--keyfield-primary) !important;
     font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+.keyfield-case-study .app-overview p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+}
+
+.keyfield-case-study .feature-item p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
 }
 
 /* Specific override for Overview section title */
