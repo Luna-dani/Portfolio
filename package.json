@@ -9,5 +9,8 @@
   },
   "keywords": ["portfolio", "ux", "ui", "design"],
   "author": "Danielle Luna",
-  "license": "MIT"
+  "license": "MIT",
+  "vercel": {
+    "outputDirectory": "."
+  }
 }
