@@ -7166,6 +7166,27 @@ section {
     color: var(--keyfield-primary) !important;
 }
 
+/* KeyField Navigation Hover Fixes */
+.keyfield-case-study .nav-link:hover {
+    color: var(--keyfield-primary) !important;
+    background-color: transparent !important;
+}
+
+.keyfield-case-study .nav-link:focus {
+    color: var(--keyfield-primary) !important;
+    background-color: transparent !important;
+}
+
+.keyfield-case-study .nav-link.active:hover {
+    color: var(--keyfield-primary) !important;
+    background-color: transparent !important;
+}
+
+.keyfield-case-study .nav-brand a:hover {
+    color: var(--keyfield-primary) !important;
+    background-color: transparent !important;
+}
+
 
 .competitor-logo {
     text-align: center;
