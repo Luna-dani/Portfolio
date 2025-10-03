@@ -7061,6 +7061,295 @@ section {
     color: var(--keyfield-primary) !important;
 }
 
+/* COMPREHENSIVE KEYFIELD COLOR OVERRIDES - Remove ALL pink/blue colors */
+.keyfield-case-study * {
+    /* Override any remaining pink colors */
+    --primary-pink: var(--keyfield-primary) !important;
+    --primary-pink-dark: var(--keyfield-primary-dark) !important;
+    --accent-pink-light: var(--keyfield-accent) !important;
+    --accent-pink: var(--keyfield-primary) !important;
+    
+    /* Override any remaining blue colors */
+    --primary-blue: var(--keyfield-primary) !important;
+    --primary-blue-dark: var(--keyfield-primary-dark) !important;
+    --accent-blue: var(--keyfield-primary) !important;
+}
+
+/* KeyField Buttons - Use hero colors */
+.keyfield-case-study .btn-primary {
+    background: linear-gradient(135deg, var(--keyfield-primary) 0%, var(--keyfield-primary-dark) 100%) !important;
+    color: var(--keyfield-white) !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(136, 115, 98, 0.3) !important;
+}
+
+.keyfield-case-study .btn-secondary {
+    background: transparent !important;
+    color: var(--keyfield-primary) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .btn-secondary:hover {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .btn-outline {
+    background: transparent !important;
+    color: var(--keyfield-primary) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .btn-outline:hover {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+/* KeyField Links */
+.keyfield-case-study a {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study a:hover {
+    color: var(--keyfield-primary-dark) !important;
+}
+
+/* KeyField Design Process Timeline */
+.keyfield-case-study .timeline-step .step-circle {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .step-label {
+    color: var(--keyfield-primary-dark) !important;
+}
+
+/* KeyField Competitive Analysis */
+.keyfield-case-study .competitor-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .competitor-header {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .competitor-info h4 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .competitor-info p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Define Section */
+.keyfield-case-study .define-content {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .define-section h3 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .define-section p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Ideate Section */
+.keyfield-case-study .ideate-content {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .ideate-header h4 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .card-sort-description p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .user-stories p {
+    color: var(--keyfield-text-dark) !important;
+    background: var(--keyfield-accent) !important;
+    border: 1px solid var(--keyfield-primary) !important;
+}
+
+/* KeyField Design Section */
+.keyfield-case-study .design-content {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .moodboard-description p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Refine Section */
+.keyfield-case-study .refine-content {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .refine-description p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Testing Section */
+.keyfield-case-study .testing-overview-card {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .testing-overview-card p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .testing-stats .stat-item {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .stat-content h4 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .stat-content p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .stat-icon {
+    color: var(--keyfield-primary) !important;
+}
+
+/* KeyField Testing Insights */
+.keyfield-case-study .testing-insights-card {
+    background: var(--keyfield-primary) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insights-header h3 {
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .insight-item {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .insight-content h4 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .insight-content p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+.keyfield-case-study .insight-icon {
+    color: var(--keyfield-primary) !important;
+}
+
+/* KeyField Final Designs */
+.keyfield-case-study .final-designs-content {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+/* KeyField Reflections */
+.keyfield-case-study .reflections-content {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .reflection-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .reflection-header h3 {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .reflection-content p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Style Guide */
+.keyfield-case-study .style-guide-content {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .style-guide-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .style-title {
+    color: var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .style-info p {
+    color: var(--keyfield-text-dark) !important;
+}
+
+/* KeyField Footer */
+.keyfield-case-study .footer {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .footer h3 {
+    color: var(--keyfield-white) !important;
+}
+
+.keyfield-case-study .footer p {
+    color: var(--keyfield-accent) !important;
+}
+
+.keyfield-case-study .footer a {
+    color: var(--keyfield-accent) !important;
+}
+
+.keyfield-case-study .footer a:hover {
+    color: var(--keyfield-white) !important;
+}
+
+/* KeyField Case Study Navigation */
+.keyfield-case-study .case-study-navigation {
+    background: var(--keyfield-accent) !important;
+    border-top: 2px solid var(--keyfield-primary) !important;
+}
+
+/* Remove any gradient text effects and make solid colors */
+.keyfield-case-study .gradient-text {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    background-clip: unset !important;
+    color: var(--keyfield-primary) !important;
+}
+
+/* Override any remaining pink/blue shadows */
+.keyfield-case-study * {
+    box-shadow: none !important;
+}
+
+.keyfield-case-study .btn-primary {
+    box-shadow: 0 4px 15px rgba(136, 115, 98, 0.3) !important;
+}
+
+.keyfield-case-study .problem-card:hover,
+.keyfield-case-study .feature-item:hover,
+.keyfield-case-study .focus-tag:hover,
+.keyfield-case-study .question-item:hover,
+.keyfield-case-study .insight-item:hover {
+    box-shadow: 0 8px 25px rgba(136, 115, 98, 0.2) !important;
+}
+
 /* KeyField Overview Section */
 .keyfield-case-study .overview-section {
     background: var(--keyfield-white) !important;
