@@ -7138,6 +7138,14 @@ section {
     color: var(--keyfield-white) !important;
 }
 
+.keyfield-case-study .competitor-header h3 {
+    color: var(--keyfield-white) !important;
+    font-size: 1.5rem !important;
+    margin: 0 !important;
+    font-family: 'Judson', serif !important;
+    font-weight: 600 !important;
+}
+
 .keyfield-case-study .competitor-info h4 {
     color: var(--keyfield-primary) !important;
 }
