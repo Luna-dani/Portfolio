@@ -454,12 +454,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (i < text.length) {
                 heroTitle.textContent += text.charAt(i);
                 i++;
-                setTimeout(typeWriter, 50);
+                setTimeout(typeWriter, 30);
             }
         };
         
         // Start typing effect after a short delay
-        setTimeout(typeWriter, 500);
+        setTimeout(typeWriter, 100);
     }
 });
 
