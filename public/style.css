@@ -7420,13 +7420,68 @@ section {
 
 /* KeyField Define Section */
 .keyfield-case-study .define-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .define-header {
+    background: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .define-header h3 {
+    color: var(--keyfield-white) !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    font-family: 'Judson', serif !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .define-content {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+    align-items: center !important;
+}
+
+.keyfield-case-study .define-description {
     background: var(--keyfield-white) !important;
+    padding: 2rem !important;
+    border-radius: 15px !important;
     border: 2px solid var(--keyfield-primary) !important;
 }
 
+.keyfield-case-study .define-description p {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.2rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
 .keyfield-case-study .define-image {
-    background: var(--keyfield-accent) !important;
+    background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media (max-width: 768px) {
+    .keyfield-case-study .define-content {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
 }
 
 /* KeyField Ideate Section */
