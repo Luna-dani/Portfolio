@@ -7188,10 +7188,10 @@ section {
 }
 
 .keyfield-case-study .ideate-description {
-    background: transparent !important;
-    padding: 0 !important;
-    border: none !important;
-    border-radius: 0 !important;
+    background: var(--keyfield-white) !important;
+    padding: 2rem !important;
+    border-radius: 15px !important;
+    border: 2px solid var(--keyfield-primary) !important;
     grid-column: 1 / -1 !important;
     margin-bottom: 2rem !important;
 }
@@ -7212,10 +7212,10 @@ section {
 }
 
 .keyfield-case-study .user-story-item {
-    background: var(--keyfield-white) !important;
+    background: transparent !important;
     padding: 1.5rem !important;
-    border-radius: 15px !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 0 !important;
+    border: none !important;
     transition: all 0.3s ease !important;
 }
 
