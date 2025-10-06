@@ -7604,6 +7604,10 @@ section {
     border-radius: 20px !important;
     padding: 3rem !important;
     margin-bottom: 3rem !important;
+    width: 100% !important;
+    min-height: 400px !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .keyfield-case-study .style-header {
@@ -7628,6 +7632,8 @@ section {
     grid-template-columns: 1fr 1fr !important;
     gap: 2rem !important;
     align-items: center !important;
+    flex: 1 !important;
+    min-height: 200px !important;
 }
 
 .keyfield-case-study .style-info {
@@ -7668,6 +7674,10 @@ section {
     border-radius: 20px !important;
     padding: 3rem !important;
     margin-bottom: 0 !important;
+    width: 100% !important;
+    min-height: 400px !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 @media (max-width: 768px) {
