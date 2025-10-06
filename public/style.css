@@ -530,7 +530,7 @@ section {
 .stat {
     text-align: center;
     padding: 2rem;
-    background: var(--background-light);
+    background: var(--background-white);
     border-radius: 20px;
     border: 2px solid var(--accent-pink-light);
     transition: all 0.3s ease;
@@ -570,7 +570,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: var(--background-light);
+    background: var(--accent-pink-light);
     padding: 80px 0;
 }
 
@@ -1807,7 +1807,7 @@ section {
 }
 
 .insight-item {
-    background: var(--background-light);
+    background: var(--background-white);
     padding: 1.5rem;
     border-radius: 15px;
     border: 1px solid var(--accent-pink-light);
@@ -1821,7 +1821,7 @@ section {
 }
 
 .insight-item.highlight {
-    background: var(--background-light);
+    background: var(--background-white);
     color: var(--text-dark);
     border-color: var(--accent-pink-light);
 }
@@ -3506,7 +3506,7 @@ section {
 }
 
 .contact-info-section {
-    background: var(--background-light);
+    background: var(--accent-pink-light);
     padding: 80px 0;
 }
 
@@ -3740,7 +3740,7 @@ section {
 }
 
 .faq-item {
-    background: var(--background-light);
+    background: var(--background-white);
     padding: 2rem;
     border-radius: 20px;
     border: 2px solid var(--accent-pink-light);
