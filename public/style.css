@@ -7436,17 +7436,14 @@ section {
 }
 
 .keyfield-case-study .define-content {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 2rem !important;
-    align-items: center !important;
+    margin-bottom: 2rem !important;
 }
 
 .keyfield-case-study .define-description {
-    background: var(--keyfield-white) !important;
-    padding: 2rem !important;
-    border-radius: 15px !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .define-description p {
@@ -7459,20 +7456,13 @@ section {
 }
 
 .keyfield-case-study .define-image {
-    background: var(--keyfield-white) !important;
-    border: 2px solid var(--keyfield-primary) !important;
-    border-radius: 15px !important;
-    padding: 2rem !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-}
-
-@media (max-width: 768px) {
-    .keyfield-case-study .define-content {
-        grid-template-columns: 1fr !important;
-        gap: 1.5rem !important;
-    }
 }
 
 /* KeyField Ideate Section */
