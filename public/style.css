@@ -7180,6 +7180,19 @@ section {
     margin-bottom: 3rem !important;
 }
 
+.keyfield-case-study .user-flows-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .user-flows-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
 .keyfield-case-study .user-flows-cards {
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
