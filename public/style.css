@@ -7187,8 +7187,8 @@ section {
 
 .keyfield-case-study .user-flows-statement h3 {
     color: var(--keyfield-primary) !important;
-    font-size: 1.5rem !important;
-    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
     font-family: inherit !important;
     margin: 0 !important;
 }
