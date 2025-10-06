@@ -7622,7 +7622,10 @@ section {
     margin-bottom: 2rem !important;
 }
 
-.keyfield-case-study .style-title {
+.keyfield-case-study .style-title,
+.keyfield-case-study .style-header .style-title,
+.keyfield-case-study .style-guide-card .style-title,
+.keyfield-case-study .component-card .style-title {
     color: var(--keyfield-white) !important;
     font-size: 2rem !important;
     font-weight: 600 !important;
@@ -7838,7 +7841,7 @@ section {
 }
 
 .keyfield-case-study .style-title {
-    color: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
 }
 
 .keyfield-case-study .style-info p {
