@@ -7316,7 +7316,7 @@ section {
 
 /* KeyField Moodboard Section */
 .keyfield-case-study .moodboard-section {
-    background: var(--keyfield-accent) !important;
+    background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     padding: 3rem !important;
     border-radius: 20px !important;
@@ -7344,7 +7344,7 @@ section {
 }
 
 .keyfield-case-study .moodboard-description {
-    background: var(--keyfield-white) !important;
+    background: var(--keyfield-accent) !important;
     padding: 2rem !important;
     border-radius: 15px !important;
     border: 2px solid var(--keyfield-primary) !important;
@@ -7360,7 +7360,7 @@ section {
 }
 
 .keyfield-case-study .moodboard-image {
-    background: var(--keyfield-white) !important;
+    background: var(--keyfield-accent) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 15px !important;
     padding: 2rem !important;
@@ -7371,7 +7371,7 @@ section {
 
 /* KeyField Refine Section */
 .keyfield-case-study .refine-section {
-    background: var(--keyfield-accent) !important;
+    background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     padding: 3rem !important;
     border-radius: 20px !important;
@@ -7398,7 +7398,7 @@ section {
 }
 
 .keyfield-case-study .refine-image {
-    background: var(--keyfield-white) !important;
+    background: var(--keyfield-accent) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 15px !important;
     padding: 2rem !important;
@@ -7466,7 +7466,7 @@ section {
 
 /* KeyField Final Designs Section */
 .keyfield-case-study .final-designs-section {
-    background: var(--keyfield-accent) !important;
+    background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     padding: 3rem !important;
     border-radius: 20px !important;
@@ -7493,7 +7493,7 @@ section {
 }
 
 .keyfield-case-study .design-card {
-    background: var(--keyfield-white) !important;
+    background: var(--keyfield-accent) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 15px !important;
     padding: 2rem !important;
