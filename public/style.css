@@ -21,14 +21,17 @@ body {
 
 /* Custom Color Variables */
 :root {
-    --primary-pink: #f8bbd9;
-    --primary-pink-dark: #f48fb1;
+    --primary-pink: #ff6b9d;
+    --primary-pink-dark: #e91e63;
     --accent-pink-light: #fce4ec;
-    --accent-green: #a5d6a7;
+    --accent-green: #4caf50;
     --background-light: #fafafa;
     --background-white: #ffffff;
-    --text-dark: #2c2c2c;
-    --text-muted: #666666;
+    --text-dark: #1a1a1a;
+    --text-muted: #4a4a4a;
+    --bright-accent: #ff9500;
+    --bright-blue: #2196f3;
+    --bright-purple: #9c27b0;
     
     /* Olive Health App Colors */
     --olive-primary: #233DFF;
@@ -552,11 +555,11 @@ section {
 }
 
 .stat:nth-child(2) .stat-number {
-    color: var(--primary-pink-dark);
+    color: var(--bright-blue);
 }
 
 .stat:nth-child(3) .stat-number {
-    color: var(--primary-pink);
+    color: var(--bright-accent);
 }
 
 .stat-label {
@@ -595,7 +598,20 @@ section {
     color: var(--primary-pink);
     margin-bottom: 1.5rem;
     text-align: center;
+    font-weight: 600;
     font-family: 'Judson', serif;
+}
+
+.skill-category:nth-child(1) h3 {
+    color: var(--primary-pink);
+}
+
+.skill-category:nth-child(2) h3 {
+    color: var(--bright-blue);
+}
+
+.skill-category:nth-child(3) h3 {
+    color: var(--bright-accent);
 }
 
 .skill-items {
