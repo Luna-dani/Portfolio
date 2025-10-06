@@ -7402,6 +7402,9 @@ section {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
 }
 
 .keyfield-case-study .refine-image {
@@ -7516,6 +7519,10 @@ section {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 1rem !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .design-card {
@@ -7716,8 +7723,8 @@ section {
 
 /* KeyField Refine Section */
 .keyfield-case-study .refine-content {
-    background: var(--keyfield-white) !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    background: transparent !important;
+    border: none !important;
 }
 
 .keyfield-case-study .refine-description p {
