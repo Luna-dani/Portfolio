@@ -7852,6 +7852,7 @@ section {
 .keyfield-case-study .footer {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
+    margin-top: 0 !important;
 }
 
 .keyfield-case-study .footer h3 {
@@ -7890,6 +7891,8 @@ section {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    margin: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 /* Remove any gradient text effects and make solid colors */
