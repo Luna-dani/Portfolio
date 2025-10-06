@@ -7855,6 +7855,20 @@ section {
     margin-top: 0 !important;
 }
 
+/* Olive Health Footer */
+.olive-health-case-study .footer {
+    background: var(--olive-primary) !important;
+    color: var(--olive-white) !important;
+    margin-top: 0 !important;
+}
+
+/* Study Nest Footer */
+.study-nest-case-study .footer {
+    background: var(--study-nest-primary) !important;
+    color: var(--study-nest-white) !important;
+    margin-top: 0 !important;
+}
+
 .keyfield-case-study .footer h3 {
     color: var(--keyfield-white) !important;
 }
@@ -7882,10 +7896,58 @@ section {
     flex: 1 !important;
 }
 
+/* Olive Health Page Layout */
+.olive-health-case-study body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+}
+
+.olive-health-case-study .case-study-content {
+    flex: 1 !important;
+}
+
+/* Study Nest Page Layout */
+.study-nest-case-study body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+}
+
+.study-nest-case-study .case-study-content {
+    flex: 1 !important;
+}
+
 /* KeyField Case Study Navigation */
 .keyfield-case-study .case-study-navigation {
     background: var(--keyfield-accent) !important;
     border-top: 2px solid var(--keyfield-primary) !important;
+    padding: 60px 0 !important;
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Olive Health Case Study Navigation */
+.olive-health-case-study .case-study-navigation {
+    background: var(--olive-accent) !important;
+    border-top: 2px solid var(--olive-primary) !important;
+    padding: 60px 0 !important;
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Study Nest Case Study Navigation */
+.study-nest-case-study .case-study-navigation {
+    background: var(--study-nest-accent) !important;
+    border-top: 2px solid var(--study-nest-primary) !important;
     padding: 60px 0 !important;
     flex: 1 !important;
     display: flex !important;
