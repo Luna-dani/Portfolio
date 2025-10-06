@@ -7850,39 +7850,76 @@ section {
 
 /* KeyField Footer */
 .keyfield-case-study .footer {
-    background: var(--keyfield-primary) !important;
-    color: var(--keyfield-white) !important;
+    background: var(--keyfield-white) !important;
+    color: var(--keyfield-primary) !important;
     margin-top: 0 !important;
+    border-top: 2px solid var(--keyfield-primary) !important;
 }
 
 /* Olive Health Footer */
 .olive-health-case-study .footer {
-    background: var(--olive-primary) !important;
-    color: var(--olive-white) !important;
+    background: var(--olive-white) !important;
+    color: var(--olive-primary) !important;
     margin-top: 0 !important;
+    border-top: 2px solid var(--olive-primary) !important;
 }
 
 /* Study Nest Footer */
 .study-nest-case-study .footer {
-    background: var(--study-nest-primary) !important;
-    color: var(--study-nest-white) !important;
+    background: var(--study-nest-white) !important;
+    color: var(--study-nest-primary) !important;
     margin-top: 0 !important;
+    border-top: 2px solid var(--study-nest-primary) !important;
 }
 
 .keyfield-case-study .footer h3 {
-    color: var(--keyfield-white) !important;
+    color: var(--keyfield-primary) !important;
 }
 
 .keyfield-case-study .footer p {
-    color: var(--keyfield-accent) !important;
+    color: var(--keyfield-primary) !important;
 }
 
 .keyfield-case-study .footer a {
-    color: var(--keyfield-accent) !important;
+    color: var(--keyfield-primary) !important;
 }
 
 .keyfield-case-study .footer a:hover {
-    color: var(--keyfield-white) !important;
+    color: var(--keyfield-accent) !important;
+}
+
+/* Olive Health Footer Text */
+.olive-health-case-study .footer h3 {
+    color: var(--olive-primary) !important;
+}
+
+.olive-health-case-study .footer p {
+    color: var(--olive-primary) !important;
+}
+
+.olive-health-case-study .footer a {
+    color: var(--olive-primary) !important;
+}
+
+.olive-health-case-study .footer a:hover {
+    color: var(--olive-accent) !important;
+}
+
+/* Study Nest Footer Text */
+.study-nest-case-study .footer h3 {
+    color: var(--study-nest-primary) !important;
+}
+
+.study-nest-case-study .footer p {
+    color: var(--study-nest-primary) !important;
+}
+
+.study-nest-case-study .footer a {
+    color: var(--study-nest-primary) !important;
+}
+
+.study-nest-case-study .footer a:hover {
+    color: var(--study-nest-accent) !important;
 }
 
 /* KeyField Page Layout */
