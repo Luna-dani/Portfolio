@@ -7171,6 +7171,63 @@ section {
     color: var(--keyfield-text-dark) !important;
 }
 
+/* KeyField User Flows Section */
+.keyfield-case-study .user-flows-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .user-flows-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .user-flows-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .user-flows-cards {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 1.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .user-flow-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 1.5rem !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .user-flow-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 30px rgba(136, 115, 98, 0.2) !important;
+}
+
+.keyfield-case-study .user-flow-card p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .user-flows-image {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 /* KeyField Ideate Section */
 .keyfield-case-study .ideate-section {
     background: var(--keyfield-accent) !important;
