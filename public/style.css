@@ -7428,20 +7428,21 @@ section {
 }
 
 .keyfield-case-study .define-header {
-    background: var(--keyfield-primary) !important;
-    color: var(--keyfield-white) !important;
-    padding: 1.5rem !important;
-    border-radius: 15px !important;
     text-align: center !important;
     margin-bottom: 2rem !important;
+    background: transparent !important;
+    padding: 0 !important;
 }
 
 .keyfield-case-study .define-header h3 {
-    color: var(--keyfield-white) !important;
+    color: var(--keyfield-primary) !important;
     font-size: 2rem !important;
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
     margin: 0 !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .define-content {
@@ -7455,11 +7456,11 @@ section {
     background: var(--keyfield-white) !important;
     padding: 2rem !important;
     border-radius: 15px !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    border: 1px solid rgba(136, 115, 98, 0.2) !important;
 }
 
 .keyfield-case-study .define-description p {
-    color: var(--keyfield-primary) !important;
+    color: #000000 !important;
     font-size: 1.2rem !important;
     font-family: inherit !important;
     line-height: 1.6 !important;
@@ -7469,7 +7470,7 @@ section {
 
 .keyfield-case-study .define-image {
     background: var(--keyfield-white) !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    border: 1px solid rgba(136, 115, 98, 0.2) !important;
     border-radius: 15px !important;
     padding: 2rem !important;
     display: flex !important;
