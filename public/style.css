@@ -607,11 +607,11 @@ section {
 }
 
 .skill-category:nth-child(2) h3 {
-    color: var(--bright-blue);
+    color: var(--primary-pink);
 }
 
 .skill-category:nth-child(3) h3 {
-    color: var(--bright-accent);
+    color: var(--primary-pink);
 }
 
 .skill-items {
