@@ -7598,13 +7598,16 @@ section {
     border-radius: 0 !important;
 }
 
-.keyfield-case-study .style-guide-card {
+.keyfield-case-study .style-guide-card,
+.keyfield-case-study .style-guide-content .style-guide-card {
     background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 20px !important;
     padding: 3rem !important;
     margin-bottom: 3rem !important;
     width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
     min-height: 400px !important;
     display: flex !important;
     flex-direction: column !important;
@@ -7668,13 +7671,16 @@ section {
     gap: 0 !important;
 }
 
-.keyfield-case-study .component-card {
+.keyfield-case-study .component-card,
+.keyfield-case-study .ui-components-grid .component-card {
     background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 20px !important;
     padding: 3rem !important;
     margin-bottom: 0 !important;
     width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
     min-height: 400px !important;
     display: flex !important;
     flex-direction: column !important;
