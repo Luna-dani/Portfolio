@@ -3765,10 +3765,11 @@ section {
 
 /* Footer */
 .footer {
-    background: var(--background-light);
-    border-top: 2px solid var(--accent-pink-light);
+    background: #ffffff;
+    border-top: 2px solid #e0e0e0;
     padding: 60px 0 20px;
     margin-top: 80px;
+    color: #000000;
 }
 
 .footer-content {
@@ -3779,13 +3780,13 @@ section {
 }
 
 .footer-section h3 {
-    color: var(--primary-pink);
+    color: #000000;
     margin-bottom: 1rem;
     font-family: 'Judson', serif;
 }
 
 .footer-section p {
-    color: var(--text-muted);
+    color: #000000;
     margin-bottom: 0.5rem;
 }
 
@@ -3798,22 +3799,22 @@ section {
 }
 
 .footer-section ul li a {
-    color: var(--text-muted);
+    color: #000000;
     transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: var(--primary-pink);
+    color: #666666;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid var(--accent-pink-light);
+    border-top: 1px solid #e0e0e0;
 }
 
 .footer-bottom p {
-    color: var(--text-muted);
+    color: #000000;
 }
 
 /* Floating Contact Button */
