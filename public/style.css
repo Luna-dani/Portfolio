@@ -7427,22 +7427,12 @@ section {
     margin-bottom: 3rem !important;
 }
 
-.keyfield-case-study .define-header {
-    text-align: center !important;
-    margin-bottom: 2rem !important;
-    background: transparent !important;
-    padding: 0 !important;
-}
-
-.keyfield-case-study .define-header h3 {
-    color: var(--keyfield-primary) !important;
+.keyfield-case-study .define-section .overview-header h3 {
+    color: var(--keyfield-white) !important;
     font-size: 2rem !important;
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
-    margin: 0 !important;
-    background: none !important;
-    border: none !important;
-    border-radius: 0 !important;
+    margin-bottom: 1rem !important;
 }
 
 .keyfield-case-study .define-content {
@@ -7456,7 +7446,7 @@ section {
     background: var(--keyfield-white) !important;
     padding: 2rem !important;
     border-radius: 15px !important;
-    border: 1px solid rgba(136, 115, 98, 0.2) !important;
+    border: 2px solid var(--keyfield-primary) !important;
 }
 
 .keyfield-case-study .define-description p {
@@ -7470,7 +7460,7 @@ section {
 
 .keyfield-case-study .define-image {
     background: var(--keyfield-white) !important;
-    border: 1px solid rgba(136, 115, 98, 0.2) !important;
+    border: 2px solid var(--keyfield-primary) !important;
     border-radius: 15px !important;
     padding: 2rem !important;
     display: flex !important;
