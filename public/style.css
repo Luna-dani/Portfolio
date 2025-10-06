@@ -7172,21 +7172,81 @@ section {
 }
 
 /* KeyField Ideate Section */
+.keyfield-case-study .ideate-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
 .keyfield-case-study .ideate-content {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+    align-items: start !important;
+}
+
+.keyfield-case-study .ideate-description {
+    background: var(--keyfield-white) !important;
+    padding: 2rem !important;
+    border-radius: 15px !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    grid-column: 1 / -1 !important;
+}
+
+.keyfield-case-study .ideate-description p {
+    color: #000000 !important;
+    font-size: 1.2rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.keyfield-case-study .user-stories {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+}
+
+.keyfield-case-study .user-story-item {
+    background: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .user-story-item:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(136, 115, 98, 0.2) !important;
+}
+
+.keyfield-case-study .user-story-item p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.keyfield-case-study .ideate-image {
     background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
-.keyfield-case-study .ideate-header h4 {
-    color: var(--keyfield-white) !important;
-    margin: 0 !important;
-    background: transparent !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
-}
-
-.keyfield-case-study .card-sort-description p {
-    color: var(--keyfield-text-dark) !important;
+@media (max-width: 768px) {
+    .keyfield-case-study .ideate-content {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
 }
 
 .keyfield-case-study .user-stories p {
@@ -7509,7 +7569,7 @@ section {
     }
 }
 
-/* KeyField Ideate Section */
+/* KeyField Ideate Header */
 .keyfield-case-study .ideate-header {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
@@ -7519,9 +7579,15 @@ section {
     margin-bottom: 2rem !important;
 }
 
-.keyfield-case-study .card-sort-card {
-    background: var(--keyfield-white) !important;
-    border: 2px solid var(--keyfield-primary) !important;
+.keyfield-case-study .ideate-header h3 {
+    color: var(--keyfield-white) !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    font-family: 'Judson', serif !important;
+    margin: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .card-sort-image {
