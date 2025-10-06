@@ -272,8 +272,8 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    opacity: 0.1;
+    background: var(--background-white);
+    opacity: 1;
     z-index: 1;
 }
 
@@ -283,7 +283,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, var(--background-white) 0%, var(--accent-pink-light) 100%);
+    background: var(--background-white);
     z-index: 2;
 }
 
@@ -570,7 +570,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: var(--accent-pink-light);
+    background: var(--background-white);
     padding: 80px 0;
 }
 
@@ -3506,7 +3506,7 @@ section {
 }
 
 .contact-info-section {
-    background: var(--accent-pink-light);
+    background: var(--background-white);
     padding: 80px 0;
 }
 
