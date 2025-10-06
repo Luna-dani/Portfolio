@@ -7433,6 +7433,10 @@ section {
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
     margin-bottom: 2rem !important;
+    background: var(--keyfield-primary) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
 }
 
 .keyfield-case-study .define-container {
