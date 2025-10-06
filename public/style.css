@@ -7314,6 +7314,237 @@ section {
     margin: 0 auto !important;
 }
 
+/* KeyField Moodboard Section */
+.keyfield-case-study .moodboard-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .moodboard-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .moodboard-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .moodboard-content {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+    align-items: center !important;
+}
+
+.keyfield-case-study .moodboard-description {
+    background: var(--keyfield-white) !important;
+    padding: 2rem !important;
+    border-radius: 15px !important;
+    border: 2px solid var(--keyfield-primary) !important;
+}
+
+.keyfield-case-study .moodboard-description p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.keyfield-case-study .moodboard-image {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* KeyField Refine Section */
+.keyfield-case-study .refine-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .refine-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .refine-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .refine-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.keyfield-case-study .refine-image {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 600px !important;
+}
+
+/* KeyField Testing Section */
+.keyfield-case-study .testing-section,
+.keyfield-case-study .testing-insights-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .testing-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .testing-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .testing-cards,
+.keyfield-case-study .insights-cards {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 1.5rem !important;
+}
+
+.keyfield-case-study .testing-card,
+.keyfield-case-study .insight-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 1.5rem !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .testing-card:hover,
+.keyfield-case-study .insight-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 30px rgba(136, 115, 98, 0.2) !important;
+}
+
+.keyfield-case-study .testing-card p,
+.keyfield-case-study .insight-card p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+/* KeyField Final Designs Section */
+.keyfield-case-study .final-designs-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .final-designs-statement {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+}
+
+.keyfield-case-study .final-designs-statement h3 {
+    color: var(--keyfield-primary) !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+    margin: 0 !important;
+}
+
+.keyfield-case-study .designs-gallery {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 1.5rem !important;
+}
+
+.keyfield-case-study .design-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .design-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 30px rgba(136, 115, 98, 0.2) !important;
+}
+
+/* KeyField Reflections Section */
+.keyfield-case-study .reflections-section {
+    background: var(--keyfield-accent) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    padding: 3rem !important;
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
+.keyfield-case-study .reflections-cards {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+    gap: 1.5rem !important;
+}
+
+.keyfield-case-study .reflection-card {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+.keyfield-case-study .reflection-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 30px rgba(136, 115, 98, 0.2) !important;
+}
+
+.keyfield-case-study .reflection-card p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
 @media (max-width: 768px) {
     .keyfield-case-study .ideate-content {
         grid-template-columns: 1fr !important;
@@ -7324,6 +7555,19 @@ section {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
+    }
+    
+    .keyfield-case-study .moodboard-content {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+    
+    .keyfield-case-study .testing-cards,
+    .keyfield-case-study .insights-cards,
+    .keyfield-case-study .designs-gallery,
+    .keyfield-case-study .reflections-cards {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
     }
 }
 
