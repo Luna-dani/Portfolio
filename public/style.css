@@ -7188,11 +7188,12 @@ section {
 }
 
 .keyfield-case-study .ideate-description {
-    background: var(--keyfield-white) !important;
-    padding: 2rem !important;
-    border-radius: 15px !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
     grid-column: 1 / -1 !important;
+    margin-bottom: 2rem !important;
 }
 
 .keyfield-case-study .ideate-description p {
@@ -7233,19 +7234,39 @@ section {
 }
 
 .keyfield-case-study .ideate-image {
-    background: var(--keyfield-white) !important;
-    border: 2px solid var(--keyfield-primary) !important;
-    border-radius: 15px !important;
-    padding: 2rem !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+/* Special styling for Mid-Fidelity Wireframes card */
+.keyfield-case-study .ideate-section:last-child .ideate-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    grid-template-columns: none !important;
+}
+
+.keyfield-case-study .ideate-section:last-child .ideate-image {
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
 }
 
 @media (max-width: 768px) {
     .keyfield-case-study .ideate-content {
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
+    }
+    
+    .keyfield-case-study .ideate-section:last-child .ideate-content {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 
