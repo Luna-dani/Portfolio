@@ -7212,9 +7212,9 @@ section {
 }
 
 .keyfield-case-study .user-story-item {
-    background: transparent !important;
+    background: var(--keyfield-white) !important;
     padding: 1.5rem !important;
-    border-radius: 0 !important;
+    border-radius: 15px !important;
     border: none !important;
     transition: all 0.3s ease !important;
 }
