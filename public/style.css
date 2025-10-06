@@ -955,24 +955,27 @@ section {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background: var(--primary-pink);
-    color: white;
-    border-color: var(--primary-pink);
+    background: var(--primary-pink) !important;
+    color: white !important;
+    border-color: var(--primary-pink) !important;
 }
 
 .filter-btn[data-filter="web"]:hover {
-    background: var(--primary-pink);
-    border-color: var(--primary-pink);
+    background: var(--primary-pink) !important;
+    border-color: var(--primary-pink) !important;
+    color: white !important;
 }
 
 .filter-btn[data-filter="mobile"]:hover {
-    background: var(--primary-pink);
-    border-color: var(--primary-pink);
+    background: var(--primary-pink) !important;
+    border-color: var(--primary-pink) !important;
+    color: white !important;
 }
 
 .filter-btn[data-filter="branding"]:hover {
-    background: var(--primary-pink);
-    border-color: var(--primary-pink);
+    background: var(--primary-pink) !important;
+    border-color: var(--primary-pink) !important;
+    color: white !important;
 }
 
 .portfolio-items {
