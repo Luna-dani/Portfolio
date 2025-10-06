@@ -7831,8 +7831,8 @@ section {
 
 /* KeyField Style Guide */
 .keyfield-case-study .style-guide-content {
-    background: var(--keyfield-accent) !important;
-    border: 2px solid var(--keyfield-primary) !important;
+    background: transparent !important;
+    border: none !important;
 }
 
 .keyfield-case-study .style-guide-card {
