@@ -7458,13 +7458,18 @@ section {
 }
 
 .keyfield-case-study .testing-card,
-.keyfield-case-study .insight-card {
+.keyfield-case-study .insight-card,
+.keyfield-case-study .testing-insights-section .insight-card,
+.keyfield-case-study .insights-cards .insight-card {
     background: var(--keyfield-white) !important;
     border: 2px solid var(--keyfield-primary) !important;
     border-radius: 15px !important;
     padding: 1.5rem !important;
     text-align: center !important;
     transition: all 0.3s ease !important;
+    display: block !important;
+    align-items: center !important;
+    gap: 0 !important;
 }
 
 .keyfield-case-study .testing-card:hover,
@@ -7474,7 +7479,9 @@ section {
 }
 
 .keyfield-case-study .testing-card p,
-.keyfield-case-study .insight-card p {
+.keyfield-case-study .insight-card p,
+.keyfield-case-study .testing-insights-section .insight-card p,
+.keyfield-case-study .insights-cards .insight-card p {
     color: #000000 !important;
     font-size: 1rem !important;
     font-family: inherit !important;
