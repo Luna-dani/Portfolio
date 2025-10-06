@@ -7144,6 +7144,9 @@ section {
     margin: 0 !important;
     font-family: 'Judson', serif !important;
     font-weight: 600 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .competitor-info h4 {
@@ -7175,7 +7178,11 @@ section {
 }
 
 .keyfield-case-study .ideate-header h4 {
-    color: var(--keyfield-primary) !important;
+    color: var(--keyfield-white) !important;
+    margin: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
 .keyfield-case-study .card-sort-description p {
@@ -7369,6 +7376,10 @@ section {
 .keyfield-case-study .overview-header {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
 }
 
 /* KeyField Problem and Solution Sections */
@@ -7405,6 +7416,10 @@ section {
 .keyfield-case-study .research-header {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
 }
 
 /* KeyField Competitor Cards */
@@ -7416,6 +7431,10 @@ section {
 .keyfield-case-study .competitor-header {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
 }
 
 /* KeyField Define Section */
@@ -7494,6 +7513,10 @@ section {
 .keyfield-case-study .ideate-header {
     background: var(--keyfield-primary) !important;
     color: var(--keyfield-white) !important;
+    padding: 1.5rem !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
 }
 
 .keyfield-case-study .card-sort-card {
@@ -7718,6 +7741,10 @@ section {
 
 .keyfield-case-study .overview-header h3 {
     color: var(--keyfield-white) !important;
+    margin: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 
 /* KeyField Project Overview Description */
