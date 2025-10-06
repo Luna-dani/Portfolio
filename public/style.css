@@ -555,11 +555,11 @@ section {
 }
 
 .stat:nth-child(2) .stat-number {
-    color: var(--bright-blue);
+    color: var(--primary-pink);
 }
 
 .stat:nth-child(3) .stat-number {
-    color: var(--bright-accent);
+    color: var(--primary-pink);
 }
 
 .stat-label {
