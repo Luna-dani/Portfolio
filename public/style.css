@@ -7432,11 +7432,18 @@ section {
     font-size: 2rem !important;
     font-weight: 600 !important;
     font-family: 'Judson', serif !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
 }
 
-.keyfield-case-study .define-content {
-    margin-bottom: 2rem !important;
+.keyfield-case-study .define-container {
+    background: var(--keyfield-white) !important;
+    border: 2px solid var(--keyfield-primary) !important;
+    border-radius: 15px !important;
+    padding: 2rem !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem !important;
+    align-items: center !important;
 }
 
 .keyfield-case-study .define-description {
@@ -7463,6 +7470,13 @@ section {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+@media (max-width: 768px) {
+    .keyfield-case-study .define-container {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
 }
 
 /* KeyField Ideate Section */
